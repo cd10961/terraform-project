@@ -1,6 +1,6 @@
 provider "aws" {
-  access_key = "trfmssd"
-  secret_key = "bC5849%C"
+//  access_key = "trfmssd"
+//  secret_key = "bC5849%C"
   region = "ap-northeast-1"
 }
 
