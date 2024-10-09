@@ -3,7 +3,7 @@ provider "aws" {
 }
 
 resource "aws_s3_bucket" "ssd_bucket" {
-  bucket = "trfm-ssd-s3-bucket"
+  bucket = "trfm-ssd-s3-bucket-000001"
 
   versioning {
     enabled = true
