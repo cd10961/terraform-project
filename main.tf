@@ -7,6 +7,5 @@ resource "aws_s3_bucket" "ssd_bucket" {
 
   versioning {
     enabled = true
-}
-
+  } 
 }
