@@ -6,7 +6,7 @@ resource "aws_s3_bucket" "ssd_bucket" {
   bucket = "ssd-trfm-bucket"
 
   versioning {
-    enabled = true
+    enabled = false
 }
 
 }
