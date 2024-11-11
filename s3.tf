@@ -15,7 +15,7 @@ provider "aws" {
   region = "ap-northeast-1"
 }
 
-resource "aws_s3_bucket" "ssd_bucket" {
+resource "aws_s3_bucket" "ssd_bucket_2" {
   bucket = "trfm-ssd-s3-test-000002"
 
   versioning {
