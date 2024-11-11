@@ -14,7 +14,7 @@ provider "aws" {
 #通常のS3バケット
 module "s3_buckets" {
   source  = "terraform-aws-modules/s3-bucket/aws"
-  version = "3.10.1"
+  version = "2.1.1"
 
 #バケット名
   bucket = "trfm-ssd-s3-test-000002"
