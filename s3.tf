@@ -4,10 +4,10 @@ terraform {
       source  = "hashicorp/aws"
       version = "~> 4.0"
     }
-#    s3 = {
-#      source  = "hashicorp/aws"
-#      version = "~> 2.1.1"
-#     }
+      s3 = {
+      source  = "hashicorp/aws"
+      version = "~> 3.10.1"
+      }
   }
 }
 
