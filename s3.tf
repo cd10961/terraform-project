@@ -27,6 +27,6 @@ module "s3_buckets" {
 
 #バージョンコントロール
   versioning = {
-    enabled = false
+    enabled = true
   }
 }
