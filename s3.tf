@@ -27,7 +27,7 @@ resource "aws_s3_bucket" "ssd_bucket" {
 #  create_bucket = true
 
 #バージョンコントロール
-  versioning = {
+  versioning  {
     enabled = false
   }
 }
