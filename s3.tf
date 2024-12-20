@@ -20,7 +20,7 @@ module "s3_buckets" {
   version = "3.1.1"
 
 #バケット名
-  bucket = "trfm-ssd-s3-test-000014"
+  bucket = "trfm-ssd-s3-test-000024"
 
 #バケット作成の要否
   create_bucket = true
