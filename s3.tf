@@ -21,7 +21,7 @@ provider "aws" {
 
 resource "aws_s3_bucket" "ssd_bucket" {
 #バケット名
-  bucket = "trfm-ssd-s3-test-000025"
+  bucket = "trfm-ssd-s3-test-000026"
 
 #バケット作成の要否
 #  create_bucket = true
