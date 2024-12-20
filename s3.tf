@@ -9,6 +9,9 @@ terraform {
 
 provider "aws" {
   region = "ap-northeast-1"
+  assume_role {
+    role_arn = "arn:aws:iam::025066267942:role/trfm-ssd-assume-role"
+  }
 }
 
 #通常のS3バケット
@@ -18,8 +21,6 @@ module "s3_buckets" {
   version = "3.1.1"
 
 #バケット名
-  #bucket = "trfm-ssd-s3-test-000003"
-  #bucket = "trfm-ssd-s3-test-000002"
   bucket = "trfm-ssd-s3-test-000012"
 
 #バケット作成の要否
