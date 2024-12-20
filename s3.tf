@@ -9,6 +9,9 @@ terraform {
 
 provider "aws" {
   region = "ap-northeast-1"
+  assume_role {
+    role_arn = "arn:aws:iam::025066267942:role/trfm-ssd-assume-role"
+  }
 }
 
 #通常のS3バケット
