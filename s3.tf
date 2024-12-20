@@ -23,7 +23,7 @@ provider "aws" {
   bucket = "trfm-ssd-s3-test-000024"
 
 #バケット作成の要否
-  create_bucket = true
+#  create_bucket = true
 
 #バージョンコントロール
   versioning = {
