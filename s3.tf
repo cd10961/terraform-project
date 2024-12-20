@@ -28,6 +28,6 @@ resource "aws_s3_bucket" "ssd_bucket" {
 
 #バージョンコントロール
   versioning  {
-    enabled = false
+    enabled = true
   }
 }
